@@ -1,10 +1,31 @@
-import type { Corpus, VocabEntry } from "./corpus-types";
+import type { Corpus, VocabEntry, VerbParadigmCell } from "./corpus-types";
 import rawCorpus from "@/data/corpus.json";
 
 // Cast once at the import boundary; the JSON shape is validated below.
 const corpus = rawCorpus as unknown as Corpus;
 
 // ─── Validation ──────────────────────────────────────────────────────────────
+
+const VALID_VOICES = new Set(["active", "middle", "passive"]);
+const VALID_MOODS = new Set(["indicative", "subjunctive", "optative", "imperative", "infinitive", "participle"]);
+const VALID_TENSES = new Set(["present", "future", "aorist", "perfect", "imperfect"]);
+const VALID_PERSONS = new Set(["1st", "2nd", "3rd"]);
+const VALID_NUMBERS = new Set(["sg", "pl"]);
+
+function validateVerbCell(cell: VerbParadigmCell, path: string, errors: string[]): void {
+  if (!VALID_VOICES.has(cell.voice))
+    errors.push(`${path}: invalid voice "${cell.voice}"`);
+  if (!VALID_MOODS.has(cell.mood))
+    errors.push(`${path}: invalid mood "${cell.mood}"`);
+  if (!VALID_TENSES.has(cell.tense))
+    errors.push(`${path}: invalid tense "${cell.tense}"`);
+  if (!VALID_PERSONS.has(cell.person))
+    errors.push(`${path}: invalid person "${cell.person}"`);
+  if (!VALID_NUMBERS.has(cell.number))
+    errors.push(`${path}: invalid number "${cell.number}"`);
+  if (!cell.segments || cell.segments.length === 0)
+    errors.push(`${path}: missing segments`);
+}
 
 function validateCorpus(c: Corpus): void {
   const errors: string[] = [];
@@ -24,6 +45,23 @@ function validateCorpus(c: Corpus): void {
   for (const g of c.glossary) {
     if (!g.source)
       errors.push(`Glossary "${g.term}" missing source`);
+  }
+
+  for (const paradigm of c.verbParadigms) {
+    for (const [tenseKey, persons] of Object.entries(paradigm.tenses)) {
+      for (const [personKey, cell] of Object.entries(persons)) {
+        const path = `verbParadigm "${paradigm.lemma}" tense "${tenseKey}" ${personKey}`;
+        validateVerbCell(cell as VerbParadigmCell, path, errors);
+      }
+    }
+    if (paradigm.fiveTenseChart) {
+      for (const form of paradigm.fiveTenseChart) {
+        if (!VALID_TENSES.has(form.tense))
+          errors.push(`verbParadigm "${paradigm.lemma}" fiveTenseChart: invalid tense "${form.tense}"`);
+        if (!form.segments || form.segments.length === 0)
+          errors.push(`verbParadigm "${paradigm.lemma}" fiveTenseChart "${form.tense}": missing segments`);
+      }
+    }
   }
 
   for (const word of c.john316.words) {

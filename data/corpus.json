@@ -530,6 +530,18 @@
       "source": "Glossary Week 2.pdf"
     },
     {
+      "term": "Perfective aspect",
+      "definition": "Views the action as a complete whole or point-in-time event; associated with the aorist and perfect tenses",
+      "category": "aspect",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Imperfective aspect",
+      "definition": "Views the action as ongoing or in progress; associated with the present and imperfect tenses",
+      "category": "aspect",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
       "term": "Active voice",
       "definition": "The subject produces the action",
       "category": "voice",
@@ -619,9 +631,14 @@
       "lemma": "εἰμί",
       "gloss": "I am; to be",
       "tenses": {
-        "present": {
+        "present active indicative": {
           "1sg": {
             "form": "εἰμί",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "sg",
             "segments": [
               {
                 "text": "εἰμί",
@@ -632,6 +649,11 @@
           },
           "2sg": {
             "form": "εἶ",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "sg",
             "segments": [
               {
                 "text": "εἶ",
@@ -642,6 +664,11 @@
           },
           "3sg": {
             "form": "ἐστίν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἐστίν",
@@ -652,6 +679,11 @@
           },
           "1pl": {
             "form": "ἐσμέν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἐσμέν",
@@ -662,6 +694,11 @@
           },
           "2pl": {
             "form": "ἐστέ",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἐστέ",
@@ -672,6 +709,11 @@
           },
           "3pl": {
             "form": "εἰσίν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "pl",
             "segments": [
               {
                 "text": "εἰσίν",
@@ -687,9 +729,14 @@
       "lemma": "ἔχω",
       "gloss": "I have",
       "tenses": {
-        "present": {
+        "present active indicative": {
           "1sg": {
             "form": "ἔχω",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἔχ",
@@ -705,6 +752,11 @@
           },
           "2sg": {
             "form": "ἔχεις",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἔχ",
@@ -725,6 +777,11 @@
           },
           "3sg": {
             "form": "ἔχει",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἔχ",
@@ -740,6 +797,11 @@
           },
           "1pl": {
             "form": "ἔχομεν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἔχ",
@@ -760,6 +822,11 @@
           },
           "2pl": {
             "form": "ἔχετε",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἔχ",
@@ -780,6 +847,11 @@
           },
           "3pl": {
             "form": "ἔχουσιν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἔχ",
@@ -804,10 +876,68 @@
     {
       "lemma": "ἀγαπάω",
       "gloss": "I love",
+      "fiveTenseChart": [
+        {
+          "tense": "present",
+          "form": "ἀγαπάω",
+          "gloss": "I love",
+          "segments": [
+            { "text": "ἀγαπ", "zone": "STEM", "signal": "stem" },
+            { "text": "άω", "zone": "TAIL", "signal": "1sg present ending (contracted)" }
+          ]
+        },
+        {
+          "tense": "future",
+          "form": "ἀγαπήσω",
+          "gloss": "I will love",
+          "aboveAltitude": true,
+          "segments": [
+            { "text": "ἀγαπ", "zone": "STEM", "signal": "stem" },
+            { "text": "ήσ", "zone": "MARKER", "signal": "future formative (contract)" },
+            { "text": "ω", "zone": "TAIL", "signal": "1sg ending" }
+          ]
+        },
+        {
+          "tense": "aorist",
+          "form": "ἠγάπησα",
+          "gloss": "I loved",
+          "segments": [
+            { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+            { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+            { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" }
+          ]
+        },
+        {
+          "tense": "perfect",
+          "form": "ἠγάπηκα",
+          "gloss": "I have loved",
+          "segments": [
+            { "text": "ἠ", "zone": "FRONT", "signal": "reduplication/augment" },
+            { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+            { "text": "κα", "zone": "TAIL", "signal": "perfect active ending" }
+          ]
+        },
+        {
+          "tense": "imperfect",
+          "form": "ἠγάπων",
+          "gloss": "I was loving",
+          "aboveAltitude": true,
+          "segments": [
+            { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+            { "text": "γαπ", "zone": "STEM", "signal": "stem (contract)" },
+            { "text": "ων", "zone": "TAIL", "signal": "1sg imperfect ending (contracted)" }
+          ]
+        }
+      ],
       "tenses": {
         "aorist active indicative": {
           "1sg": {
             "form": "ἠγάπησα",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἠ",
@@ -828,6 +958,11 @@
           },
           "2sg": {
             "form": "ἠγάπησας",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἠ",
@@ -853,6 +988,11 @@
           },
           "3sg": {
             "form": "ἠγάπησεν",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "sg",
             "segments": [
               {
                 "text": "ἠ",
@@ -878,6 +1018,11 @@
           },
           "1pl": {
             "form": "ἠγαπήσαμεν",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἠ",
@@ -903,6 +1048,11 @@
           },
           "2pl": {
             "form": "ἠγαπήσατε",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἠ",
@@ -928,6 +1078,11 @@
           },
           "3pl": {
             "form": "ἠγάπησαν",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "pl",
             "segments": [
               {
                 "text": "ἠ",
@@ -961,259 +1116,163 @@
         "present active indicative": {
           "1sg": {
             "form": "πιστεύω",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "sg",
             "segments": [
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "ω",
-                "zone": "TAIL",
-                "signal": "1sg ending"
-              }
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ω", "zone": "TAIL", "signal": "1sg ending" }
             ]
           },
           "2sg": {
             "form": "πιστεύεις",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "sg",
             "segments": [
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "ει",
-                "zone": "MARKER",
-                "signal": "present marker"
-              },
-              {
-                "text": "ς",
-                "zone": "TAIL",
-                "signal": "2sg ending"
-              }
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ει", "zone": "MARKER", "signal": "present marker" },
+              { "text": "ς", "zone": "TAIL", "signal": "2sg ending" }
             ]
           },
           "3sg": {
             "form": "πιστεύει",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "sg",
             "segments": [
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "ει",
-                "zone": "MARKER",
-                "signal": "present marker"
-              }
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ει", "zone": "MARKER", "signal": "present marker" }
             ]
           },
           "1pl": {
             "form": "πιστεύομεν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "pl",
             "segments": [
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "ο",
-                "zone": "MARKER",
-                "signal": "thematic vowel"
-              },
-              {
-                "text": "μεν",
-                "zone": "TAIL",
-                "signal": "1pl ending"
-              }
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ο", "zone": "MARKER", "signal": "thematic vowel" },
+              { "text": "μεν", "zone": "TAIL", "signal": "1pl ending" }
             ]
           },
           "2pl": {
             "form": "πιστεύετε",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "pl",
             "segments": [
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "ε",
-                "zone": "MARKER",
-                "signal": "thematic vowel"
-              },
-              {
-                "text": "τε",
-                "zone": "TAIL",
-                "signal": "2pl ending"
-              }
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ε", "zone": "MARKER", "signal": "thematic vowel" },
+              { "text": "τε", "zone": "TAIL", "signal": "2pl ending" }
             ]
           },
           "3pl": {
             "form": "πιστεύουσιν",
+            "tense": "present",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "pl",
             "segments": [
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "ου",
-                "zone": "MARKER",
-                "signal": "thematic vowel + σ"
-              },
-              {
-                "text": "σιν",
-                "zone": "TAIL",
-                "signal": "3pl ending"
-              }
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ου", "zone": "MARKER", "signal": "thematic vowel + σ" },
+              { "text": "σιν", "zone": "TAIL", "signal": "3pl ending" }
             ]
           }
         },
         "aorist active indicative": {
           "1sg": {
             "form": "ἐπίστευσα",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "sg",
             "segments": [
-              {
-                "text": "ἐ",
-                "zone": "FRONT",
-                "signal": "augment (ε)"
-              },
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "σα",
-                "zone": "MARKER",
-                "signal": "aorist formative (σα)"
-              }
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" }
             ]
           },
           "2sg": {
             "form": "ἐπίστευσας",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "sg",
             "segments": [
-              {
-                "text": "ἐ",
-                "zone": "FRONT",
-                "signal": "augment (ε)"
-              },
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "σα",
-                "zone": "MARKER",
-                "signal": "aorist formative (σα)"
-              },
-              {
-                "text": "ς",
-                "zone": "TAIL",
-                "signal": "2sg ending"
-              }
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "ς", "zone": "TAIL", "signal": "2sg ending" }
             ]
           },
           "3sg": {
             "form": "ἐπίστευσεν",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "sg",
             "segments": [
-              {
-                "text": "ἐ",
-                "zone": "FRONT",
-                "signal": "augment (ε)"
-              },
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "σε",
-                "zone": "MARKER",
-                "signal": "aorist formative (σε)"
-              },
-              {
-                "text": "ν",
-                "zone": "TAIL",
-                "signal": "3sg ending (movable ν)"
-              }
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σε", "zone": "MARKER", "signal": "aorist formative (σε)" },
+              { "text": "ν", "zone": "TAIL", "signal": "3sg ending (movable ν)" }
             ]
           },
           "1pl": {
             "form": "ἐπιστεύσαμεν",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "1st",
+            "number": "pl",
             "segments": [
-              {
-                "text": "ἐ",
-                "zone": "FRONT",
-                "signal": "augment (ε)"
-              },
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "σα",
-                "zone": "MARKER",
-                "signal": "aorist formative (σα)"
-              },
-              {
-                "text": "μεν",
-                "zone": "TAIL",
-                "signal": "1pl ending"
-              }
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "μεν", "zone": "TAIL", "signal": "1pl ending" }
             ]
           },
           "2pl": {
             "form": "ἐπιστεύσατε",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "2nd",
+            "number": "pl",
             "segments": [
-              {
-                "text": "ἐ",
-                "zone": "FRONT",
-                "signal": "augment (ε)"
-              },
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "σα",
-                "zone": "MARKER",
-                "signal": "aorist formative (σα)"
-              },
-              {
-                "text": "τε",
-                "zone": "TAIL",
-                "signal": "2pl ending"
-              }
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "τε", "zone": "TAIL", "signal": "2pl ending" }
             ]
           },
           "3pl": {
             "form": "ἐπίστευσαν",
+            "tense": "aorist",
+            "voice": "active",
+            "mood": "indicative",
+            "person": "3rd",
+            "number": "pl",
             "segments": [
-              {
-                "text": "ἐ",
-                "zone": "FRONT",
-                "signal": "augment (ε)"
-              },
-              {
-                "text": "πιστευ",
-                "zone": "STEM",
-                "signal": "stem"
-              },
-              {
-                "text": "σα",
-                "zone": "MARKER",
-                "signal": "aorist formative (σα)"
-              },
-              {
-                "text": "ν",
-                "zone": "TAIL",
-                "signal": "3pl ending"
-              }
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "ν", "zone": "TAIL", "signal": "3pl ending" }
             ]
           }
         }
@@ -1225,6 +1284,7 @@
       "lemma": "θεός",
       "gloss": "God, god",
       "declension": "2nd masculine",
+      "gender": "masculine",
       "cells": {
         "nom_sg": {
           "form": "θεός",
@@ -1354,6 +1414,7 @@
       "lemma": "αὐτός",
       "gloss": "he, she, it; same; himself",
       "declension": "3rd person pronoun",
+      "gender": "masculine",
       "cells": {
         "nom_sg": {
           "form": "αὐτός",
@@ -1686,6 +1747,7 @@
     "lemma": "ὁ",
     "gloss": "the (masculine)",
     "declension": "definite article masculine",
+    "gender": "masculine",
     "cells": {
       "nom_sg": {
         "form": "ὁ",

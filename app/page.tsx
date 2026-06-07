@@ -12,6 +12,11 @@ const SECTIONS = [
     desc: "Practice recognition, production, parsing, and paradigm drills",
   },
   {
+    href: "/morphology",
+    title: "Morphology",
+    desc: "Zone model, verb/noun paradigms, parsing trainer, and definitions drill",
+  },
+  {
     href: "/john-316",
     title: "John 3:16",
     desc: "Tap each word of the verse to decode its meaning and grammar",

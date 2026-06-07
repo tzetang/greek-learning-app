@@ -33,7 +33,7 @@ export interface VocabEntry {
 export interface GlossaryEntry {
   term: string;
   definition: string;  // course-faithful wording
-  category: "writing" | "grammar" | "cases" | "tenses" | "moods" | "voice";
+  category: "writing" | "grammar" | "cases" | "tenses" | "moods" | "voice" | "aspect";
   source: string;
 }
 
@@ -43,9 +43,35 @@ export type Person = "1sg" | "2sg" | "3sg" | "1pl" | "2pl" | "3pl";
 export type Case = "nom" | "acc" | "dat" | "gen" | "voc";
 export type Number = "sg" | "pl";
 
+// Discrete parse-property types used by the parsing trainer
+export type VoiceType = "active" | "middle" | "passive";
+export type MoodType = "indicative" | "subjunctive" | "optative" | "imperative" | "infinitive" | "participle";
+export type TenseType = "present" | "future" | "aorist" | "perfect" | "imperfect";
+export type PersonLabel = "1st" | "2nd" | "3rd";
+export type NumberLabel = "sg" | "pl";
+export type GenderType = "masculine" | "feminine" | "neuter";
+
 export interface ParadigmCell {
   form: string;
   segments: Segment[];
+}
+
+/** Verb paradigm cell with full discrete parse metadata for the parsing trainer */
+export interface VerbParadigmCell extends ParadigmCell {
+  tense: TenseType;
+  voice: VoiceType;
+  mood: MoodType;
+  person: PersonLabel;
+  number: NumberLabel;
+}
+
+/** One representative active-indicative form per tense for the five-tense chart */
+export interface FiveTenseForm {
+  tense: TenseType;
+  form: string;
+  gloss: string;
+  segments: Segment[];
+  aboveAltitude?: boolean;
 }
 
 /** Verb paradigm: keyed by tense → person → form */
@@ -54,9 +80,10 @@ export interface VerbParadigm {
   gloss: string;
   tenses: {
     [tense: string]: {
-      [P in Person]?: ParadigmCell;
+      [P in Person]?: VerbParadigmCell;
     };
   };
+  fiveTenseChart?: FiveTenseForm[];
 }
 
 /** Noun/pronoun paradigm: keyed by case+number → form */
@@ -64,6 +91,7 @@ export interface NounParadigm {
   lemma: string;
   gloss: string;
   declension: string;
+  gender?: GenderType;
   cells: {
     [key: string]: ParadigmCell; // key = `${Case}_${Number}` e.g. "nom_sg"
   };

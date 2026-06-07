@@ -28,6 +28,17 @@ export default function John316Reader() {
         <p className="text-xs text-slate-400 mt-0.5">Tap any word to decode it</p>
       </div>
 
+      {/* Video */}
+      <div className="aspect-video w-full rounded-xl overflow-hidden border border-slate-200">
+        <iframe
+          src="https://www.youtube.com/embed/T0k7xqoHmbU"
+          title="John 3:16 video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-full h-full"
+        />
+      </div>
+
       {/* Verse display */}
       <div
         className="greek text-2xl leading-loose text-slate-900"

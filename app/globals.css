@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --font-greek: var(--font-noto-serif), "Noto Serif", Georgia, serif;
+}
+
+@theme inline {
+  --font-sans: var(--font-noto-serif), Georgia, serif;
+  --font-greek: var(--font-noto-serif), "Noto Serif", Georgia, serif;
+}
+
+/* Greek text — always use the polytonic-capable serif font */
+.greek {
+  font-family: var(--font-greek);
+  font-feature-settings: "kern" 1;
+}
+
+/* Larger touch targets for mobile tappable Greek words */
+.greek-word {
+  font-family: var(--font-greek);
+  cursor: pointer;
+  padding: 0.1em 0.15em;
+  border-radius: 0.2em;
+  transition: background-color 150ms ease;
+}
+
+.greek-word:hover,
+.greek-word[data-selected="true"] {
+  background-color: rgb(219 234 254); /* blue-100 */
+}

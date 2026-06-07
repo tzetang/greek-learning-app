@@ -1,0 +1,1445 @@
+{
+  "vocabSets": [
+    {
+      "id": 1,
+      "name": "Set 1",
+      "entries": [
+        {
+          "greek": "ὁ",
+          "gloss": "the (masculine)",
+          "partOfSpeech": "definite article",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "καί",
+          "gloss": "and, also, even",
+          "partOfSpeech": "conjunction",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "αὐτός",
+          "gloss": "he, she, it; him, her, it",
+          "partOfSpeech": "pronoun",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἐν",
+          "gloss": "in, on, among (+ dative)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἐγώ",
+          "gloss": "I",
+          "partOfSpeech": "pronoun",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "εἰμί",
+          "gloss": "I am; to be",
+          "partOfSpeech": "verb",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "λέγω",
+          "gloss": "I say, I speak",
+          "partOfSpeech": "verb",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "εἰς",
+          "gloss": "into, to, in (+ accusative)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "οὗτος",
+          "gloss": "this (masculine); this one",
+          "partOfSpeech": "demonstrative pronoun",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "θεός",
+          "gloss": "God, god",
+          "partOfSpeech": "noun",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ὅτι",
+          "gloss": "that, because",
+          "partOfSpeech": "conjunction",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "πᾶς",
+          "gloss": "all, every, each",
+          "partOfSpeech": "adjective",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "μή",
+          "gloss": "not (with non-indicative moods)",
+          "partOfSpeech": "negative particle",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "γάρ",
+          "gloss": "for, because (postpositive)",
+          "partOfSpeech": "conjunction",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "Ἰησοῦς",
+          "gloss": "Jesus",
+          "partOfSpeech": "proper noun",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἐκ",
+          "gloss": "from, out of (+ genitive)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἐπί",
+          "gloss": "on, upon, near, against (+ gen/dat/acc)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "κύριος",
+          "gloss": "lord, master, Lord",
+          "partOfSpeech": "noun",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἔχω",
+          "gloss": "I have",
+          "partOfSpeech": "verb",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "πρός",
+          "gloss": "to, toward (+ accusative)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "γίνομαι",
+          "gloss": "I become, I happen",
+          "partOfSpeech": "verb",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "διά",
+          "gloss": "through, because of (+ gen/acc)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἵνα",
+          "gloss": "in order that, so that (+ subjunctive)",
+          "partOfSpeech": "conjunction",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        },
+        {
+          "greek": "ἀπό",
+          "gloss": "from, away from (+ genitive)",
+          "partOfSpeech": "preposition",
+          "setId": 1,
+          "source": "Core Vocabulary 1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Set 2",
+      "entries": [
+        {
+          "greek": "λαλέω",
+          "gloss": "I speak",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "οὐρανός",
+          "gloss": "heaven, sky",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "γῆ",
+          "gloss": "earth, land",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "μαθητής",
+          "gloss": "disciple, student",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "λαμβάνω",
+          "gloss": "I take, I receive",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ἐκεῖνος",
+          "gloss": "that (one), those",
+          "partOfSpeech": "demonstrative pronoun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "μέγας",
+          "gloss": "great, large",
+          "partOfSpeech": "adjective",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "πίστις",
+          "gloss": "faith, trust",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "πιστεύω",
+          "gloss": "I believe, I trust (+ εἰς + accusative)",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "οὐδείς",
+          "gloss": "no one, nothing",
+          "partOfSpeech": "pronoun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ἅγιος",
+          "gloss": "holy; the Holy (Spirit)",
+          "partOfSpeech": "adjective",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ἀποκρίνομαι",
+          "gloss": "I answer, I reply",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ἄγγελος",
+          "gloss": "angel, messenger",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ὄνομα",
+          "gloss": "name",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "γινώσκω",
+          "gloss": "I know, I come to know",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ὑπό",
+          "gloss": "by (agent), under (+ gen/acc)",
+          "partOfSpeech": "preposition",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ἐξέρχομαι",
+          "gloss": "I go out, I come out",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "εἰσέρχομαι",
+          "gloss": "I come in, I enter",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "ἀνήρ",
+          "gloss": "man, husband",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "γυνή",
+          "gloss": "woman, wife",
+          "partOfSpeech": "noun",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "τέ",
+          "gloss": "and (enclitic, connects closely related items)",
+          "partOfSpeech": "conjunction",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "δύναμαι",
+          "gloss": "I am able, I can",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "οὕτω",
+          "gloss": "in this way, thus, so",
+          "partOfSpeech": "adverb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        },
+        {
+          "greek": "θέλω",
+          "gloss": "I wish, I want",
+          "partOfSpeech": "verb",
+          "setId": 2,
+          "source": "IBG Vocabulary 3.pdf"
+        }
+      ]
+    }
+  ],
+  "beyondCoreSets": [
+    {
+      "greek": "κόσμος",
+      "gloss": "world",
+      "partOfSpeech": "noun",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "μονογενής",
+      "gloss": "only, one and only",
+      "partOfSpeech": "adjective",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "δίδωμι",
+      "gloss": "I give",
+      "partOfSpeech": "verb",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "ζωή",
+      "gloss": "life",
+      "partOfSpeech": "noun",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "ὥστε",
+      "gloss": "so that, with the result that",
+      "partOfSpeech": "conjunction",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "υἱός",
+      "gloss": "son",
+      "partOfSpeech": "noun",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "ἀπόλλυμι",
+      "gloss": "I destroy; (middle) I perish",
+      "partOfSpeech": "verb",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "ἀλλά",
+      "gloss": "but (strong adversative)",
+      "partOfSpeech": "conjunction",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    },
+    {
+      "greek": "αἰώνιος",
+      "gloss": "eternal, everlasting",
+      "partOfSpeech": "adjective",
+      "setId": null,
+      "source": "John 3:16 interlinear"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Transliteration",
+      "definition": "Writing the English alphabet equivalent of Greek letters",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Diphthong",
+      "definition": "Two vowels producing one sound; the second vowel is always ι or υ",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Rough breathing mark",
+      "definition": "The mark (῾) placed over an initial vowel or ρ, adding an 'h' sound",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Smooth breathing mark",
+      "definition": "The mark (᾿) placed over an initial vowel indicating no 'h' sound; silent",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Accent",
+      "definition": "A mark indicating pitch or stress: acute (´), grave (`), or circumflex (͂). Not assessed in this course.",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Iota subscript",
+      "definition": "A small ι written under α, η, or ω (ᾳ, ῃ, ῳ); represents a formerly pronounced vowel",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Gamma nasal",
+      "definition": "When γ appears before γ, κ, χ, or ξ it is pronounced like 'n' (e.g. ἄγγελος = 'angelos')",
+      "category": "writing",
+      "source": "Glossary Week 1.pdf"
+    },
+    {
+      "term": "Noun",
+      "definition": "A word that stands for someone or something",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Adjective",
+      "definition": "A word that modifies a noun",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Definite article",
+      "definition": "The Greek equivalent of English 'the'; it agrees with the noun in gender, case, and number",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Inflection",
+      "definition": "When a noun changes its form to show its role: subject, object, indirect object, or possessive",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Declension",
+      "definition": "A pattern of noun endings. There are three: 1st (feminine α/η), 2nd (masculine ο), 3rd (neuter/consonant stems). This course covers 2nd declension masculine only.",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Nominative case",
+      "definition": "The subject of the sentence or verb",
+      "category": "cases",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Accusative case",
+      "definition": "The direct object of the verb",
+      "category": "cases",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Dative case",
+      "definition": "The indirect object; translated with 'to', 'in', 'with', or 'for'",
+      "category": "cases",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Genitive case",
+      "definition": "The possessive case; translated with 'of' or apostrophe-s",
+      "category": "cases",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Parse (a verb)",
+      "definition": "To provide the person, number, and tense of a verb (plus mood for exams)",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Decline (a noun)",
+      "definition": "To modify a noun's ending to show its role (subject, object, etc.)",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Conjugate (a verb)",
+      "definition": "To modify a verb for person, number, tense, voice, and mood",
+      "category": "grammar",
+      "source": "Glossary Week 2.pdf"
+    },
+    {
+      "term": "Active voice",
+      "definition": "The subject produces the action",
+      "category": "voice",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Passive voice",
+      "definition": "The subject receives the action",
+      "category": "voice",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Middle voice",
+      "definition": "The subject produces the action but is also affected by it",
+      "category": "voice",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Present tense",
+      "definition": "Action occurring in the present",
+      "category": "tenses",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Future tense",
+      "definition": "Action that will occur in the future",
+      "category": "tenses",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Aorist tense",
+      "definition": "A simple past tense in the indicative mood",
+      "category": "tenses",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Perfect tense",
+      "definition": "Action brought to completion whose effects are felt in the present",
+      "category": "tenses",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Imperfect tense",
+      "definition": "Imperfective action normally occurring in past time",
+      "category": "tenses",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Indicative mood",
+      "definition": "Describes what is; states facts",
+      "category": "moods",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Subjunctive mood",
+      "definition": "Expresses possibility or probability; used after ἵνα ('in order that')",
+      "category": "moods",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Optative mood",
+      "definition": "Expresses a wish or prayer; two steps removed from reality (e.g. μὴ γένοιτο = 'may it never be')",
+      "category": "moods",
+      "source": "Optative Examples.pdf"
+    },
+    {
+      "term": "Imperative mood",
+      "definition": "A command or urgent request",
+      "category": "moods",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Infinitive",
+      "definition": "A non-finite verbal noun; it has tense and voice but no person or number",
+      "category": "moods",
+      "source": "IBG 2026 6.pdf"
+    },
+    {
+      "term": "Participle",
+      "definition": "A non-finite verbal adjective; it has tense, voice, number, case, and person",
+      "category": "moods",
+      "source": "IBG 2026 6.pdf"
+    }
+  ],
+  "verbParadigms": [
+    {
+      "lemma": "εἰμί",
+      "gloss": "I am; to be",
+      "tenses": {
+        "present": {
+          "1sg": {
+            "form": "εἰμί",
+            "segments": [
+              { "text": "εἰμί", "zone": "STEM", "signal": "stem (irregular)" }
+            ]
+          },
+          "2sg": {
+            "form": "εἶ",
+            "segments": [
+              { "text": "εἶ", "zone": "STEM", "signal": "stem (irregular)" }
+            ]
+          },
+          "3sg": {
+            "form": "ἐστίν",
+            "segments": [
+              { "text": "ἐστίν", "zone": "STEM", "signal": "stem (irregular)" }
+            ]
+          },
+          "1pl": {
+            "form": "ἐσμέν",
+            "segments": [
+              { "text": "ἐσμέν", "zone": "STEM", "signal": "stem (irregular)" }
+            ]
+          },
+          "2pl": {
+            "form": "ἐστέ",
+            "segments": [
+              { "text": "ἐστέ", "zone": "STEM", "signal": "stem (irregular)" }
+            ]
+          },
+          "3pl": {
+            "form": "εἰσίν",
+            "segments": [
+              { "text": "εἰσίν", "zone": "STEM", "signal": "stem (irregular)" }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lemma": "ἔχω",
+      "gloss": "I have",
+      "tenses": {
+        "present": {
+          "1sg": {
+            "form": "ἔχω",
+            "segments": [
+              { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+              { "text": "ω", "zone": "TAIL", "signal": "1sg ending" }
+            ]
+          },
+          "2sg": {
+            "form": "ἔχεις",
+            "segments": [
+              { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+              { "text": "ει", "zone": "MARKER", "signal": "present marker" },
+              { "text": "ς", "zone": "TAIL", "signal": "2sg ending" }
+            ]
+          },
+          "3sg": {
+            "form": "ἔχει",
+            "segments": [
+              { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+              { "text": "ει", "zone": "MARKER", "signal": "present marker" }
+            ]
+          },
+          "1pl": {
+            "form": "ἔχομεν",
+            "segments": [
+              { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+              { "text": "ο", "zone": "MARKER", "signal": "thematic vowel" },
+              { "text": "μεν", "zone": "TAIL", "signal": "1pl ending" }
+            ]
+          },
+          "2pl": {
+            "form": "ἔχετε",
+            "segments": [
+              { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+              { "text": "ε", "zone": "MARKER", "signal": "thematic vowel" },
+              { "text": "τε", "zone": "TAIL", "signal": "2pl ending" }
+            ]
+          },
+          "3pl": {
+            "form": "ἔχουσιν",
+            "segments": [
+              { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+              { "text": "ου", "zone": "MARKER", "signal": "thematic vowel + σ" },
+              { "text": "σιν", "zone": "TAIL", "signal": "3pl ending" }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lemma": "ἀγαπάω",
+      "gloss": "I love",
+      "tenses": {
+        "aorist active indicative": {
+          "1sg": {
+            "form": "ἠγάπησα",
+            "segments": [
+              { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+              { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" }
+            ]
+          },
+          "2sg": {
+            "form": "ἠγάπησας",
+            "segments": [
+              { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+              { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "ς", "zone": "TAIL", "signal": "2sg ending" }
+            ]
+          },
+          "3sg": {
+            "form": "ἠγάπησεν",
+            "segments": [
+              { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+              { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+              { "text": "σε", "zone": "MARKER", "signal": "aorist formative (σε)" },
+              { "text": "ν", "zone": "TAIL", "signal": "3sg ending (movable ν)" }
+            ]
+          },
+          "1pl": {
+            "form": "ἠγαπήσαμεν",
+            "segments": [
+              { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+              { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "μεν", "zone": "TAIL", "signal": "1pl ending" }
+            ]
+          },
+          "2pl": {
+            "form": "ἠγαπήσατε",
+            "segments": [
+              { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+              { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "τε", "zone": "TAIL", "signal": "2pl ending" }
+            ]
+          },
+          "3pl": {
+            "form": "ἠγάπησαν",
+            "segments": [
+              { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+              { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "ν", "zone": "TAIL", "signal": "3pl ending" }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lemma": "πιστεύω",
+      "gloss": "I believe, I trust",
+      "tenses": {
+        "present active indicative": {
+          "1sg": {
+            "form": "πιστεύω",
+            "segments": [
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ω", "zone": "TAIL", "signal": "1sg ending" }
+            ]
+          },
+          "2sg": {
+            "form": "πιστεύεις",
+            "segments": [
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ει", "zone": "MARKER", "signal": "present marker" },
+              { "text": "ς", "zone": "TAIL", "signal": "2sg ending" }
+            ]
+          },
+          "3sg": {
+            "form": "πιστεύει",
+            "segments": [
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ει", "zone": "MARKER", "signal": "present marker" }
+            ]
+          },
+          "1pl": {
+            "form": "πιστεύομεν",
+            "segments": [
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ο", "zone": "MARKER", "signal": "thematic vowel" },
+              { "text": "μεν", "zone": "TAIL", "signal": "1pl ending" }
+            ]
+          },
+          "2pl": {
+            "form": "πιστεύετε",
+            "segments": [
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ε", "zone": "MARKER", "signal": "thematic vowel" },
+              { "text": "τε", "zone": "TAIL", "signal": "2pl ending" }
+            ]
+          },
+          "3pl": {
+            "form": "πιστεύουσιν",
+            "segments": [
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "ου", "zone": "MARKER", "signal": "thematic vowel + σ" },
+              { "text": "σιν", "zone": "TAIL", "signal": "3pl ending" }
+            ]
+          }
+        },
+        "aorist active indicative": {
+          "1sg": {
+            "form": "ἐπίστευσα",
+            "segments": [
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" }
+            ]
+          },
+          "2sg": {
+            "form": "ἐπίστευσας",
+            "segments": [
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "ς", "zone": "TAIL", "signal": "2sg ending" }
+            ]
+          },
+          "3sg": {
+            "form": "ἐπίστευσεν",
+            "segments": [
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σε", "zone": "MARKER", "signal": "aorist formative (σε)" },
+              { "text": "ν", "zone": "TAIL", "signal": "3sg ending (movable ν)" }
+            ]
+          },
+          "1pl": {
+            "form": "ἐπιστεύσαμεν",
+            "segments": [
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "μεν", "zone": "TAIL", "signal": "1pl ending" }
+            ]
+          },
+          "2pl": {
+            "form": "ἐπιστεύσατε",
+            "segments": [
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "τε", "zone": "TAIL", "signal": "2pl ending" }
+            ]
+          },
+          "3pl": {
+            "form": "ἐπίστευσαν",
+            "segments": [
+              { "text": "ἐ", "zone": "FRONT", "signal": "augment (ε)" },
+              { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+              { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" },
+              { "text": "ν", "zone": "TAIL", "signal": "3pl ending" }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "nounParadigms": [
+    {
+      "lemma": "θεός",
+      "gloss": "God, god",
+      "declension": "2nd masculine",
+      "cells": {
+        "nom_sg": {
+          "form": "θεός",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "ός", "zone": "TAIL", "signal": "nominative singular" }
+          ]
+        },
+        "acc_sg": {
+          "form": "θεόν",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "όν", "zone": "TAIL", "signal": "accusative singular" }
+          ]
+        },
+        "dat_sg": {
+          "form": "θεῷ",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "ῷ", "zone": "TAIL", "signal": "dative singular" }
+          ]
+        },
+        "gen_sg": {
+          "form": "θεοῦ",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "οῦ", "zone": "TAIL", "signal": "genitive singular" }
+          ]
+        },
+        "nom_pl": {
+          "form": "θεοί",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "οί", "zone": "TAIL", "signal": "nominative plural" }
+          ]
+        },
+        "acc_pl": {
+          "form": "θεούς",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "ούς", "zone": "TAIL", "signal": "accusative plural" }
+          ]
+        },
+        "dat_pl": {
+          "form": "θεοῖς",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "οῖς", "zone": "TAIL", "signal": "dative plural" }
+          ]
+        },
+        "gen_pl": {
+          "form": "θεῶν",
+          "segments": [
+            { "text": "θε", "zone": "STEM", "signal": "stem" },
+            { "text": "ῶν", "zone": "TAIL", "signal": "genitive plural" }
+          ]
+        }
+      }
+    }
+  ],
+  "pronounParadigms": [
+    {
+      "lemma": "αὐτός",
+      "gloss": "he, she, it; same; himself",
+      "declension": "3rd person pronoun",
+      "cells": {
+        "nom_sg": { "form": "αὐτός", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "ός", "zone": "TAIL", "signal": "nominative singular masculine" }] },
+        "acc_sg": { "form": "αὐτόν", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "όν", "zone": "TAIL", "signal": "accusative singular masculine" }] },
+        "dat_sg": { "form": "αὐτῷ", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "ῷ", "zone": "TAIL", "signal": "dative singular masculine" }] },
+        "gen_sg": { "form": "αὐτοῦ", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "οῦ", "zone": "TAIL", "signal": "genitive singular masculine" }] },
+        "nom_pl": { "form": "αὐτοί", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "οί", "zone": "TAIL", "signal": "nominative plural masculine" }] },
+        "acc_pl": { "form": "αὐτούς", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "ούς", "zone": "TAIL", "signal": "accusative plural masculine" }] },
+        "dat_pl": { "form": "αὐτοῖς", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "οῖς", "zone": "TAIL", "signal": "dative plural masculine" }] },
+        "gen_pl": { "form": "αὐτῶν", "segments": [{ "text": "αὐτ", "zone": "STEM", "signal": "stem" }, { "text": "ῶν", "zone": "TAIL", "signal": "genitive plural masculine" }] }
+      }
+    },
+    {
+      "lemma": "ἐγώ",
+      "gloss": "I",
+      "declension": "1st person pronoun",
+      "cells": {
+        "nom_sg": { "form": "ἐγώ", "segments": [{ "text": "ἐγώ", "zone": "STEM", "signal": "1sg nominative" }] },
+        "acc_sg": { "form": "με", "segments": [{ "text": "με", "zone": "TAIL", "signal": "1sg accusative" }] },
+        "dat_sg": { "form": "μοι", "segments": [{ "text": "μοι", "zone": "TAIL", "signal": "1sg dative" }] },
+        "gen_sg": { "form": "μου", "segments": [{ "text": "μου", "zone": "TAIL", "signal": "1sg genitive" }] },
+        "nom_pl": { "form": "ἡμεῖς", "segments": [{ "text": "ἡμεῖς", "zone": "STEM", "signal": "1pl nominative" }] },
+        "acc_pl": { "form": "ἡμᾶς", "segments": [{ "text": "ἡμ", "zone": "STEM", "signal": "stem" }, { "text": "ᾶς", "zone": "TAIL", "signal": "1pl accusative" }] },
+        "dat_pl": { "form": "ἡμῖν", "segments": [{ "text": "ἡμ", "zone": "STEM", "signal": "stem" }, { "text": "ῖν", "zone": "TAIL", "signal": "1pl dative" }] },
+        "gen_pl": { "form": "ἡμῶν", "segments": [{ "text": "ἡμ", "zone": "STEM", "signal": "stem" }, { "text": "ῶν", "zone": "TAIL", "signal": "1pl genitive" }] }
+      }
+    },
+    {
+      "lemma": "σύ",
+      "gloss": "you (singular)",
+      "declension": "2nd person pronoun",
+      "cells": {
+        "nom_sg": { "form": "σύ", "segments": [{ "text": "σύ", "zone": "STEM", "signal": "2sg nominative" }] },
+        "acc_sg": { "form": "σε", "segments": [{ "text": "σε", "zone": "TAIL", "signal": "2sg accusative" }] },
+        "dat_sg": { "form": "σοι", "segments": [{ "text": "σοι", "zone": "TAIL", "signal": "2sg dative" }] },
+        "gen_sg": { "form": "σου", "segments": [{ "text": "σου", "zone": "TAIL", "signal": "2sg genitive" }] },
+        "nom_pl": { "form": "ὑμεῖς", "segments": [{ "text": "ὑμεῖς", "zone": "STEM", "signal": "2pl nominative" }] },
+        "acc_pl": { "form": "ὑμᾶς", "segments": [{ "text": "ὑμ", "zone": "STEM", "signal": "stem" }, { "text": "ᾶς", "zone": "TAIL", "signal": "2pl accusative" }] },
+        "dat_pl": { "form": "ὑμῖν", "segments": [{ "text": "ὑμ", "zone": "STEM", "signal": "stem" }, { "text": "ῖν", "zone": "TAIL", "signal": "2pl dative" }] },
+        "gen_pl": { "form": "ὑμῶν", "segments": [{ "text": "ὑμ", "zone": "STEM", "signal": "stem" }, { "text": "ῶν", "zone": "TAIL", "signal": "2pl genitive" }] }
+      }
+    }
+  ],
+  "articleParadigm": {
+    "lemma": "ὁ",
+    "gloss": "the (masculine)",
+    "declension": "definite article masculine",
+    "cells": {
+      "nom_sg": { "form": "ὁ", "segments": [{ "text": "ὁ", "zone": "STEM", "signal": "nominative singular" }] },
+      "acc_sg": { "form": "τόν", "segments": [{ "text": "τ", "zone": "STEM", "signal": "article stem" }, { "text": "όν", "zone": "TAIL", "signal": "accusative singular" }] },
+      "dat_sg": { "form": "τῷ", "segments": [{ "text": "τ", "zone": "STEM", "signal": "article stem" }, { "text": "ῷ", "zone": "TAIL", "signal": "dative singular" }] },
+      "gen_sg": { "form": "τοῦ", "segments": [{ "text": "τ", "zone": "STEM", "signal": "article stem" }, { "text": "οῦ", "zone": "TAIL", "signal": "genitive singular" }] },
+      "nom_pl": { "form": "οἱ", "segments": [{ "text": "οἱ", "zone": "STEM", "signal": "nominative plural" }] },
+      "acc_pl": { "form": "τούς", "segments": [{ "text": "τ", "zone": "STEM", "signal": "article stem" }, { "text": "ούς", "zone": "TAIL", "signal": "accusative plural" }] },
+      "dat_pl": { "form": "τοῖς", "segments": [{ "text": "τ", "zone": "STEM", "signal": "article stem" }, { "text": "οῖς", "zone": "TAIL", "signal": "dative plural" }] },
+      "gen_pl": { "form": "τῶν", "segments": [{ "text": "τ", "zone": "STEM", "signal": "article stem" }, { "text": "ῶν", "zone": "TAIL", "signal": "genitive plural" }] }
+    }
+  },
+  "prepositions": [
+    {
+      "greek": "ἐν",
+      "cases": ["dative"],
+      "glosses": ["in, on, among, with"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "εἰς",
+      "cases": ["accusative"],
+      "glosses": ["into, to, in"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "ἐκ / ἐξ",
+      "cases": ["genitive"],
+      "glosses": ["from, out of"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "ἀπό",
+      "cases": ["genitive"],
+      "glosses": ["from, away from"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "πρός",
+      "cases": ["accusative"],
+      "glosses": ["to, toward, with"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "διά",
+      "cases": ["genitive", "accusative"],
+      "glosses": ["through", "because of"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "ἐπί",
+      "cases": ["genitive", "dative", "accusative"],
+      "glosses": ["on, over", "on, at", "on, against"],
+      "source": "Core Vocabulary 1.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "ὑπό",
+      "cases": ["genitive", "accusative"],
+      "glosses": ["by (agent)", "under"],
+      "source": "IBG Vocabulary 3.pdf / Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "κατά",
+      "cases": ["genitive", "accusative"],
+      "glosses": ["against, down from", "according to, throughout"],
+      "source": "Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "μετά",
+      "cases": ["genitive", "accusative"],
+      "glosses": ["with", "after"],
+      "source": "Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "παρά",
+      "cases": ["genitive", "dative", "accusative"],
+      "glosses": ["from alongside", "beside, in the presence of", "beside, contrary to"],
+      "source": "Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "περί",
+      "cases": ["genitive", "accusative"],
+      "glosses": ["concerning, about", "around"],
+      "source": "Diagram of Prepositions.jpg"
+    },
+    {
+      "greek": "ὑπέρ",
+      "cases": ["genitive", "accusative"],
+      "glosses": ["on behalf of, for", "above, beyond"],
+      "source": "Diagram of Prepositions.jpg"
+    }
+  ],
+  "john316": {
+    "greek": "οὕτως γὰρ ἠγάπησεν ὁ θεὸς τὸν κόσμον ὥστε τὸν υἱὸν τὸν μονογενῆ ἔδωκεν ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον",
+    "words": [
+      {
+        "index": 0,
+        "greek": "οὕτως",
+        "lemma": "οὕτω",
+        "gloss": "in this way, so, thus",
+        "parse": "adverb",
+        "setId": 2,
+        "beyondCoreSets": false,
+        "grammarTopic": "vocabulary",
+        "segments": [
+          { "text": "οὕτως", "zone": "STEM", "signal": "adverb" }
+        ]
+      },
+      {
+        "index": 1,
+        "greek": "γὰρ",
+        "lemma": "γάρ",
+        "gloss": "for, because",
+        "parse": "postpositive conjunction",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "vocabulary",
+        "segments": [
+          { "text": "γάρ", "zone": "STEM", "signal": "conjunction" }
+        ]
+      },
+      {
+        "index": 2,
+        "greek": "ἠγάπησεν",
+        "lemma": "ἀγαπάω",
+        "gloss": "he loved",
+        "parse": "3rd singular aorist active indicative",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": "tenses",
+        "segments": [
+          { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
+          { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+          { "text": "σε", "zone": "MARKER", "signal": "aorist formative (σε)" },
+          { "text": "ν", "zone": "TAIL", "signal": "3sg ending (movable ν)" }
+        ]
+      },
+      {
+        "index": 3,
+        "greek": "ὁ",
+        "lemma": "ὁ",
+        "gloss": "the",
+        "parse": "nominative singular masculine article",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "ὁ", "zone": "STEM", "signal": "nominative singular article" }
+        ]
+      },
+      {
+        "index": 4,
+        "greek": "θεὸς",
+        "lemma": "θεός",
+        "gloss": "God",
+        "parse": "nominative singular masculine noun",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "θε", "zone": "STEM", "signal": "stem" },
+          { "text": "ὸς", "zone": "TAIL", "signal": "nominative singular" }
+        ]
+      },
+      {
+        "index": 5,
+        "greek": "τὸν",
+        "lemma": "ὁ",
+        "gloss": "the",
+        "parse": "accusative singular masculine article",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "τ", "zone": "STEM", "signal": "article stem" },
+          { "text": "ὸν", "zone": "TAIL", "signal": "accusative singular" }
+        ]
+      },
+      {
+        "index": 6,
+        "greek": "κόσμον",
+        "lemma": "κόσμος",
+        "gloss": "world",
+        "parse": "accusative singular masculine noun",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "κοσμ", "zone": "STEM", "signal": "stem" },
+          { "text": "ον", "zone": "TAIL", "signal": "accusative singular" }
+        ]
+      },
+      {
+        "index": 7,
+        "greek": "ὥστε",
+        "lemma": "ὥστε",
+        "gloss": "so that, with the result that",
+        "parse": "conjunction",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": null,
+        "segments": [
+          { "text": "ὥστε", "zone": "STEM", "signal": "conjunction" }
+        ]
+      },
+      {
+        "index": 8,
+        "greek": "τὸν",
+        "lemma": "ὁ",
+        "gloss": "the",
+        "parse": "accusative singular masculine article",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "τ", "zone": "STEM", "signal": "article stem" },
+          { "text": "ὸν", "zone": "TAIL", "signal": "accusative singular" }
+        ]
+      },
+      {
+        "index": 9,
+        "greek": "υἱὸν",
+        "lemma": "υἱός",
+        "gloss": "son",
+        "parse": "accusative singular masculine noun",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "υἱ", "zone": "STEM", "signal": "stem" },
+          { "text": "ὸν", "zone": "TAIL", "signal": "accusative singular" }
+        ]
+      },
+      {
+        "index": 10,
+        "greek": "τὸν",
+        "lemma": "ὁ",
+        "gloss": "the",
+        "parse": "accusative singular masculine article",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "τ", "zone": "STEM", "signal": "article stem" },
+          { "text": "ὸν", "zone": "TAIL", "signal": "accusative singular" }
+        ]
+      },
+      {
+        "index": 11,
+        "greek": "μονογενῆ",
+        "lemma": "μονογενής",
+        "gloss": "only, one and only",
+        "parse": "accusative singular masculine adjective",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": null,
+        "segments": [
+          { "text": "μονογεν", "zone": "STEM", "signal": "stem" },
+          { "text": "ῆ", "zone": "TAIL", "signal": "accusative singular (3rd declension adjective)" }
+        ]
+      },
+      {
+        "index": 12,
+        "greek": "ἔδωκεν",
+        "lemma": "δίδωμι",
+        "gloss": "he gave",
+        "parse": "3rd singular aorist active indicative",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": "tenses",
+        "segments": [
+          { "text": "ἔ", "zone": "FRONT", "signal": "augment (ε)" },
+          { "text": "δωκ", "zone": "STEM", "signal": "aorist stem (κ-aorist)" },
+          { "text": "εν", "zone": "TAIL", "signal": "3sg ending" }
+        ]
+      },
+      {
+        "index": 13,
+        "greek": "ἵνα",
+        "lemma": "ἵνα",
+        "gloss": "in order that, so that",
+        "parse": "conjunction (+ subjunctive)",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "moods",
+        "segments": [
+          { "text": "ἵνα", "zone": "STEM", "signal": "conjunction" }
+        ]
+      },
+      {
+        "index": 14,
+        "greek": "πᾶς",
+        "lemma": "πᾶς",
+        "gloss": "every, all",
+        "parse": "nominative singular masculine adjective",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "vocabulary",
+        "segments": [
+          { "text": "π", "zone": "STEM", "signal": "stem" },
+          { "text": "ᾶς", "zone": "TAIL", "signal": "nominative singular masculine" }
+        ]
+      },
+      {
+        "index": 15,
+        "greek": "ὁ",
+        "lemma": "ὁ",
+        "gloss": "the",
+        "parse": "nominative singular masculine article",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "ὁ", "zone": "STEM", "signal": "nominative singular article" }
+        ]
+      },
+      {
+        "index": 16,
+        "greek": "πιστεύων",
+        "lemma": "πιστεύω",
+        "gloss": "believing (the one who believes)",
+        "parse": "present active participle, nominative singular masculine",
+        "setId": 2,
+        "beyondCoreSets": false,
+        "grammarTopic": "moods",
+        "segments": [
+          { "text": "πιστευ", "zone": "STEM", "signal": "stem" },
+          { "text": "ων", "zone": "TAIL", "signal": "present active participle ending" }
+        ]
+      },
+      {
+        "index": 17,
+        "greek": "εἰς",
+        "lemma": "εἰς",
+        "gloss": "into, in",
+        "parse": "preposition (+ accusative)",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "prepositions",
+        "segments": [
+          { "text": "εἰς", "zone": "STEM", "signal": "preposition" }
+        ]
+      },
+      {
+        "index": 18,
+        "greek": "αὐτὸν",
+        "lemma": "αὐτός",
+        "gloss": "him",
+        "parse": "accusative singular masculine pronoun",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "αὐτ", "zone": "STEM", "signal": "stem" },
+          { "text": "ὸν", "zone": "TAIL", "signal": "accusative singular masculine" }
+        ]
+      },
+      {
+        "index": 19,
+        "greek": "μὴ",
+        "lemma": "μή",
+        "gloss": "not",
+        "parse": "negative particle",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "vocabulary",
+        "segments": [
+          { "text": "μή", "zone": "STEM", "signal": "negative particle" }
+        ]
+      },
+      {
+        "index": 20,
+        "greek": "ἀπόληται",
+        "lemma": "ἀπόλλυμι",
+        "gloss": "may perish",
+        "parse": "2nd/3rd singular aorist middle subjunctive",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": "moods",
+        "segments": [
+          { "text": "ἀπ", "zone": "FRONT", "signal": "prefix (ἀπο-)" },
+          { "text": "όλη", "zone": "STEM", "signal": "stem" },
+          { "text": "ται", "zone": "TAIL", "signal": "aorist middle subjunctive ending" }
+        ]
+      },
+      {
+        "index": 21,
+        "greek": "ἀλλ᾽",
+        "lemma": "ἀλλά",
+        "gloss": "but",
+        "parse": "adversative conjunction (elided before vowel)",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": null,
+        "segments": [
+          { "text": "ἀλλ᾽", "zone": "STEM", "signal": "conjunction (elided)" }
+        ]
+      },
+      {
+        "index": 22,
+        "greek": "ἔχῃ",
+        "lemma": "ἔχω",
+        "gloss": "may have",
+        "parse": "3rd singular present active subjunctive",
+        "setId": 1,
+        "beyondCoreSets": false,
+        "grammarTopic": "moods",
+        "segments": [
+          { "text": "ἔχ", "zone": "STEM", "signal": "stem" },
+          { "text": "η", "zone": "MARKER", "signal": "subjunctive marker" },
+          { "text": "ι", "zone": "TAIL", "signal": "3sg subjunctive ending" }
+        ]
+      },
+      {
+        "index": 23,
+        "greek": "ζωὴν",
+        "lemma": "ζωή",
+        "gloss": "life",
+        "parse": "accusative singular feminine noun",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": "cases",
+        "segments": [
+          { "text": "ζω", "zone": "STEM", "signal": "stem" },
+          { "text": "ὴν", "zone": "TAIL", "signal": "accusative singular (1st declension feminine)" }
+        ]
+      },
+      {
+        "index": 24,
+        "greek": "αἰώνιον",
+        "lemma": "αἰώνιος",
+        "gloss": "eternal",
+        "parse": "accusative singular feminine adjective",
+        "setId": null,
+        "beyondCoreSets": true,
+        "grammarTopic": null,
+        "segments": [
+          { "text": "αἰωνι", "zone": "STEM", "signal": "stem" },
+          { "text": "ον", "zone": "TAIL", "signal": "accusative singular" }
+        ]
+      }
+    ]
+  }
+}

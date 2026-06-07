@@ -58,5 +58,5 @@
 
 - [x] 8.1 Verify each capability against its spec scenarios (corpus fidelity, morpheme zones, quiz formats/grading, reader links, tutor scope)
 - [x] 8.2 Test mobile responsiveness and Greek rendering across viewport sizes
-- [ ] 8.3 Deploy to Vercel (preview → production) and smoke-test the tutor endpoint
+- [x] 8.3 Deploy to Vercel (preview → production) and smoke-test the tutor endpoint
 - [x] 8.4 Document how to add a future vocabulary set (edit corpus JSON, redeploy) for the two pending sets

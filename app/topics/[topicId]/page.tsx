@@ -4,6 +4,7 @@ import { TOPICS } from "@/lib/topics";
 import { getCorpus } from "@/lib/corpus";
 import BuildStepper from "@/components/BuildStepper";
 import BreakView from "@/components/BreakView";
+import TopicTabs from "@/components/TopicTabs";
 import type { Metadata } from "next";
 
 // ─── Static params ────────────────────────────────────────────────────────────
@@ -46,8 +47,12 @@ export default async function TopicLearnPage({
         <p className="text-sm text-slate-500 mt-0.5">{topic.description}</p>
       </div>
 
-      {/* Content per topic */}
-      <TopicContent topicId={topicId} corpus={corpus} />
+      {/* Guided lesson (e-teacher) with the static reference as a fallback tab */}
+      <TopicTabs
+        topicId={topicId}
+        topicTitle={topic.title}
+        reference={<TopicContent topicId={topicId} corpus={corpus} />}
+      />
 
       {/* Actions */}
       <div className="flex gap-3 pt-4 border-t border-slate-100">
@@ -82,8 +87,8 @@ function TopicContent({
       return <WritingSoundContent corpus={corpus} />;
     case "vocabulary-set-1":
       return <VocabContent setId={1} corpus={corpus} />;
-    case "vocabulary-set-2":
-      return <VocabContent setId={2} corpus={corpus} />;
+    case "vocabulary-set-3":
+      return <VocabContent setId={3} corpus={corpus} />;
     case "cases":
       return <CasesContent corpus={corpus} />;
     case "pronouns":

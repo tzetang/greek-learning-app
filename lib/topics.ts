@@ -19,8 +19,8 @@ export const TOPICS: TopicMeta[] = [
     hasParadigm: false,
   },
   {
-    id: "vocabulary-set-2",
-    title: "Vocabulary — Set 2",
+    id: "vocabulary-set-3",
+    title: "Vocabulary — Set 3",
     description: "24 more high-frequency New Testament words",
     hasParadigm: false,
   },

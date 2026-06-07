@@ -15,7 +15,7 @@ import BreakView from "./BreakView";
 
 const COMPONENTS: { id: QuizComponent; label: string }[] = [
   { id: "vocabulary-set-1", label: "Vocabulary Set 1" },
-  { id: "vocabulary-set-2", label: "Vocabulary Set 2" },
+  { id: "vocabulary-set-3", label: "Vocabulary Set 3" },
   { id: "cases", label: "Cases" },
   { id: "pronouns", label: "Pronouns" },
   { id: "verbs", label: "Verbs (Present)" },

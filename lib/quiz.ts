@@ -11,7 +11,7 @@ export type QuizFormat =
 
 export type QuizComponent =
   | "vocabulary-set-1"
-  | "vocabulary-set-2"
+  | "vocabulary-set-3"
   | "cases"
   | "pronouns"
   | "verbs"
@@ -36,7 +36,7 @@ export interface QuizQuestion {
 
 export const COMPONENT_FORMATS: Record<QuizComponent, QuizFormat[]> = {
   "vocabulary-set-1": ["recognize", "produce", "match"],
-  "vocabulary-set-2": ["recognize", "produce", "match"],
+  "vocabulary-set-3": ["recognize", "produce", "match"],
   "cases": ["recognize", "fill-paradigm"],
   "pronouns": ["recognize", "fill-paradigm"],
   "verbs": ["recognize", "parse", "fill-paradigm"],
@@ -85,8 +85,8 @@ export function generateQuestions(
 ): QuizQuestion[] {
   const questions: QuizQuestion[] = [];
 
-  if (component === "vocabulary-set-1" || component === "vocabulary-set-2") {
-    const setId = component === "vocabulary-set-1" ? 1 : 2;
+  if (component === "vocabulary-set-1" || component === "vocabulary-set-3") {
+    const setId = component === "vocabulary-set-1" ? 1 : 3;
     // Exclude beyondCoreSets words — they must not appear in vocab quizzes
     const entries = corpus.vocabSets.find((s) => s.id === setId)?.entries ?? [];
     const allGlosses = entries.map((e) => e.gloss);

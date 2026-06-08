@@ -290,7 +290,7 @@ export default function QuizEngine() {
           <div className="flex justify-center pt-2">
             <button
               onClick={() => router.push("/quiz?mode=quiz3")}
-              className="text-base opacity-20 hover:opacity-40 transition-opacity cursor-default select-none"
+              className="text-base opacity-40 hover:opacity-70 transition-opacity cursor-default select-none"
               aria-hidden="true"
               tabIndex={-1}
             >

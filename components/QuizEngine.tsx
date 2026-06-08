@@ -208,16 +208,7 @@ export default function QuizEngine() {
 
   if (phase === "select") {
     return (
-      <div className="relative space-y-5">
-        {/* Invisible secret tap zone — top-right corner */}
-        {!isQuiz3Mode && (
-          <button
-            onClick={() => router.push("/quiz?mode=quiz3")}
-            className="absolute top-0 right-0 w-11 h-11 opacity-0 cursor-default"
-            aria-hidden="true"
-            tabIndex={-1}
-          />
-        )}
+      <div className="space-y-5">
         {isQuiz3Mode ? (
           <div>
             <h1 className="text-xl font-bold text-slate-800">Quiz 3 Review</h1>
@@ -294,6 +285,19 @@ export default function QuizEngine() {
         >
           Start Quiz
         </button>
+
+        {!isQuiz3Mode && (
+          <div className="flex justify-center pt-2">
+            <button
+              onClick={() => router.push("/quiz?mode=quiz3")}
+              className="text-base opacity-20 hover:opacity-40 transition-opacity cursor-default select-none"
+              aria-hidden="true"
+              tabIndex={-1}
+            >
+              🐱
+            </button>
+          </div>
+        )}
       </div>
     );
   }

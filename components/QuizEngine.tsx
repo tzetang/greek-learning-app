@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import {
   type QuizComponent,
   type QuizFormat,
@@ -27,14 +27,25 @@ const COMPONENTS: { id: QuizComponent; label: string }[] = [
 
 const LS_KEY = "quiz-selection";
 
+const QUIZ3_COMPONENTS: QuizComponent[] = [
+  "vocabulary-set-3",
+  "verbs",
+  "tenses",
+  "prepositions",
+  "pronouns",
+];
+
 type Phase = "select" | "quiz" | "results";
 
 export default function QuizEngine() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const topicParam = searchParams.get("topic");
+  const isQuiz3Mode = searchParams.get("mode") === "quiz3";
 
   // ── Selection state ──────────────────────────────────────────────────────
   const [selectedComponents, setSelectedComponents] = useState<QuizComponent[]>(() => {
+    if (isQuiz3Mode) return QUIZ3_COMPONENTS;
     if (typeof window === "undefined") return [];
     try {
       const saved = localStorage.getItem(LS_KEY);
@@ -44,8 +55,9 @@ export default function QuizEngine() {
   });
   const [selectedFormat, setSelectedFormat] = useState<QuizFormat>("recognize");
 
-  // Pre-select from URL topic param
+  // Pre-select from URL topic param (skip in quiz3 mode)
   useEffect(() => {
+    if (isQuiz3Mode) return;
     if (topicParam) {
       const found = COMPONENTS.find((c) =>
         c.label.toLowerCase().includes(topicParam.toLowerCase()) ||
@@ -58,6 +70,7 @@ export default function QuizEngine() {
   }, [topicParam]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const toggleComponent = (id: QuizComponent) => {
+    if (isQuiz3Mode) return;
     setSelectedComponents((prev) => {
       const next = prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id];
       localStorage.setItem(LS_KEY, JSON.stringify(next));
@@ -66,6 +79,7 @@ export default function QuizEngine() {
   };
 
   const selectAll = () => {
+    if (isQuiz3Mode) return;
     const all = COMPONENTS.map((c) => c.id);
     setSelectedComponents(all);
     localStorage.setItem(LS_KEY, JSON.stringify(all));
@@ -194,28 +208,50 @@ export default function QuizEngine() {
 
   if (phase === "select") {
     return (
-      <div className="space-y-5">
-        <h1 className="text-xl font-bold text-slate-800">Quiz</h1>
+      <div className="relative space-y-5">
+        {/* Invisible secret tap zone — top-right corner */}
+        {!isQuiz3Mode && (
+          <button
+            onClick={() => router.push("/quiz?mode=quiz3")}
+            className="absolute top-0 right-0 w-11 h-11 opacity-0 cursor-default"
+            aria-hidden="true"
+            tabIndex={-1}
+          />
+        )}
+        {isQuiz3Mode ? (
+          <div>
+            <h1 className="text-xl font-bold text-slate-800">Quiz 3 Review</h1>
+            <p className="text-xs text-slate-400 mt-0.5">Weeks 4–5 · Vocab Set 3</p>
+          </div>
+        ) : (
+          <h1 className="text-xl font-bold text-slate-800">Quiz</h1>
+        )}
 
         {/* Component multi-select */}
         <div>
           <div className="flex items-center justify-between mb-2">
             <span className="text-sm font-medium text-slate-700">Topics</span>
-            <button
-              onClick={selectAll}
-              className="text-xs text-blue-600 hover:underline"
-            >
-              Select all (mock exam)
-            </button>
+            {!isQuiz3Mode && (
+              <button
+                onClick={selectAll}
+                className="text-xs text-blue-600 hover:underline"
+              >
+                Select all (mock exam)
+              </button>
+            )}
           </div>
           <div className="grid grid-cols-2 gap-2">
-            {COMPONENTS.map(({ id, label }) => (
+            {(isQuiz3Mode ? COMPONENTS.filter((c) => QUIZ3_COMPONENTS.includes(c.id)) : COMPONENTS).map(({ id, label }) => (
               <button
                 key={id}
                 onClick={() => toggleComponent(id)}
                 className={`px-3 py-2 rounded-lg border text-sm text-left transition-colors ${
                   selectedComponents.includes(id)
-                    ? "bg-blue-600 text-white border-blue-600"
+                    ? isQuiz3Mode
+                      ? "bg-violet-600 text-white border-violet-600"
+                      : "bg-blue-600 text-white border-blue-600"
+                    : isQuiz3Mode
+                    ? "border-violet-200 text-slate-400 cursor-default"
                     : "border-slate-300 text-slate-600 hover:bg-slate-50"
                 }`}
               >
@@ -250,7 +286,11 @@ export default function QuizEngine() {
         <button
           onClick={startQuiz}
           disabled={selectedComponents.length === 0}
-          className="w-full py-3 bg-blue-600 text-white rounded-xl font-semibold disabled:opacity-40 hover:bg-blue-700 transition-colors"
+          className={`w-full py-3 text-white rounded-xl font-semibold disabled:opacity-40 transition-colors ${
+            isQuiz3Mode
+              ? "bg-violet-600 hover:bg-violet-700"
+              : "bg-blue-600 hover:bg-blue-700"
+          }`}
         >
           Start Quiz
         </button>
@@ -261,7 +301,9 @@ export default function QuizEngine() {
   if (phase === "results") {
     return (
       <div className="space-y-5">
-        <h1 className="text-xl font-bold text-slate-800">Results</h1>
+        <h1 className="text-xl font-bold text-slate-800">
+          {isQuiz3Mode ? "Quiz 3 Review — Results" : "Results"}
+        </h1>
         <div className="text-center py-4">
           <div className="text-4xl font-bold text-slate-900">
             {score}/{questions.length}
@@ -472,7 +514,11 @@ export default function QuizEngine() {
             graded === null &&
             (currentQ.format === "recognize" ? selected === null : userInput.trim() === "")
           }
-          className="w-full py-3 bg-blue-600 text-white rounded-xl font-semibold disabled:opacity-40 hover:bg-blue-700 transition-colors"
+          className={`w-full py-3 text-white rounded-xl font-semibold disabled:opacity-40 transition-colors ${
+            isQuiz3Mode
+              ? "bg-violet-600 hover:bg-violet-700"
+              : "bg-blue-600 hover:bg-blue-700"
+          }`}
         >
           {graded === null ? "Check" : qIndex + 1 >= questions.length ? "Finish" : "Next"}
         </button>

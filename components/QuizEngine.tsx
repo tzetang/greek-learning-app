@@ -9,6 +9,7 @@ import {
   COMPONENT_FORMATS,
   generateQuestions,
   gradeAnswer,
+  shuffle,
 } from "@/lib/quiz";
 import { corpus } from "@/lib/corpus";
 import BreakView from "./BreakView";
@@ -129,8 +130,8 @@ export default function QuizEngine() {
   // Set up match game state when question changes
   useEffect(() => {
     if (currentQ?.format === "match" && currentQ.matchPairs) {
-      setMatchLeft(currentQ.matchPairs.map(([l]) => l));
-      setMatchRight(currentQ.matchPairs.map(([, r]) => r));
+      setMatchLeft(shuffle(currentQ.matchPairs.map(([l]) => l)));
+      setMatchRight(shuffle(currentQ.matchPairs.map(([, r]) => r)));
       setMatchSel(null);
       setMatchMatched([]);
     }

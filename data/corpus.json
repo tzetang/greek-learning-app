@@ -621,7 +621,7 @@
     },
     {
       "term": "Participle",
-      "definition": "A non-finite verbal adjective; it has tense, voice, number, case, and person",
+      "definition": "A non-finite verbal adjective; it has tense, voice, number, case, and gender",
       "category": "moods",
       "source": "IBG 2026 6.pdf"
     }
@@ -903,7 +903,7 @@
           "gloss": "I loved",
           "segments": [
             { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
-            { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+            { "text": "γάπη", "zone": "STEM", "signal": "stem" },
             { "text": "σα", "zone": "MARKER", "signal": "aorist formative (σα)" }
           ]
         },
@@ -913,7 +913,7 @@
           "gloss": "I have loved",
           "segments": [
             { "text": "ἠ", "zone": "FRONT", "signal": "reduplication/augment" },
-            { "text": "γαπη", "zone": "STEM", "signal": "stem" },
+            { "text": "γάπη", "zone": "STEM", "signal": "stem" },
             { "text": "κα", "zone": "TAIL", "signal": "perfect active ending" }
           ]
         },
@@ -924,7 +924,7 @@
           "aboveAltitude": true,
           "segments": [
             { "text": "ἠ", "zone": "FRONT", "signal": "augment (η)" },
-            { "text": "γαπ", "zone": "STEM", "signal": "stem (contract)" },
+            { "text": "γάπ", "zone": "STEM", "signal": "stem (contract)" },
             { "text": "ων", "zone": "TAIL", "signal": "1sg imperfect ending (contracted)" }
           ]
         }
@@ -945,7 +945,7 @@
                 "signal": "augment (η)"
               },
               {
-                "text": "γαπη",
+                "text": "γάπη",
                 "zone": "STEM",
                 "signal": "stem"
               },
@@ -970,7 +970,7 @@
                 "signal": "augment (η)"
               },
               {
-                "text": "γαπη",
+                "text": "γάπη",
                 "zone": "STEM",
                 "signal": "stem"
               },
@@ -1000,7 +1000,7 @@
                 "signal": "augment (η)"
               },
               {
-                "text": "γαπη",
+                "text": "γάπη",
                 "zone": "STEM",
                 "signal": "stem"
               },
@@ -1030,7 +1030,7 @@
                 "signal": "augment (η)"
               },
               {
-                "text": "γαπη",
+                "text": "γαπή",
                 "zone": "STEM",
                 "signal": "stem"
               },
@@ -1060,7 +1060,7 @@
                 "signal": "augment (η)"
               },
               {
-                "text": "γαπη",
+                "text": "γαπή",
                 "zone": "STEM",
                 "signal": "stem"
               },
@@ -1090,7 +1090,7 @@
                 "signal": "augment (η)"
               },
               {
-                "text": "γαπη",
+                "text": "γάπη",
                 "zone": "STEM",
                 "signal": "stem"
               },
@@ -2066,7 +2066,7 @@
             "signal": "augment (η)"
           },
           {
-            "text": "γαπη",
+            "text": "γάπη",
             "zone": "STEM",
             "signal": "stem"
           },
